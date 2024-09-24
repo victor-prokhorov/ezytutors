@@ -21,3 +21,6 @@ name = "iter2"
 
 [[bin]]
 name = "iter3"
+
+[[bin]]
+name = "iter4"

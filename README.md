@@ -50,3 +50,6 @@ cargo run --bin iter1 -p tutor-db
 
 - second iteration suggested filestructure
 ![filestructure of second iteration](./filestructure-iter2.svg)
+
+- `sqlx::query!(...).exectue(pool).await` will execute *without* returning
+- as opposite to `.fetch_one` `.fetch_all`
